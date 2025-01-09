@@ -1,0 +1,47 @@
+# pycharm設定ファイル
+.idea/
+
+# 仮想環境
+.venv/
+
+# 環境変数ファイル
+.env
+
+# 設定ファイル
+config.txt
+
+# PyInstaller generated files
+build/
+dist/
+*.spec
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# その他無視したいファイルやディレクトリ
+*.log
+
+# エディタやIDE関連
+.vscode/
+.ipynb_checkpoints/
+
+# OSごとのファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+*~
+.directory
+
+# バイナリファイル
+*.exe
+*.dll
+*.so
+*.dylib
+
+# デバッグファイル
+*.core
+*.stackdump
